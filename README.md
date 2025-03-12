@@ -185,4 +185,6 @@ To verify the actual transferability as proposed in the paper, we also tested th
    - Instead of discarding clipped noise, PIM++ reassigns it to neighboring pixels.
    - This avoids losing critical adversarial information.
 
+---
+
 <img src="./assets/PIM++_eval.png" alt="PIM++ Results" />
