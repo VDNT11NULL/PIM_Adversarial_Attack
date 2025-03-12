@@ -22,7 +22,7 @@ PIM++ is particularly effective in **targeted transfer-based black-box attacks**
 ### **PIM++ Implementation**
 PIM++ refines adversarial generation through **Average of Ensemble (AoE) ximization**, **patch-wise perturbations**, **amplification mechanisms**, and **temperature scaling**. The adversarial crafting pipeline follows these procedural steps:
 
-![image.png](attachment.png)
+![image.png](assets/PIM++_Algo.png)
 
 1. **Loss Computation**: The adversarial perturbation is guided by the cross-entropy loss between the perturbed input and the desired target class $ y_{adv} $, directing the ximization trajectory.
 2. **Gradient Computation**: Backpropagation computes the gradient of the loss function with respect to the input image, identifying the most effective perturbation vectors.
