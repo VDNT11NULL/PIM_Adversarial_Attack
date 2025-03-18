@@ -4,6 +4,12 @@
 
 Patch-wise++ Perturbation (PIM++) is an adversarial attack method designed to generate adversarial examples with **high transferability**, especially for **targeted attacks**. Unlike conventional pixel-wise attacks, PIM++ perturbs **patches** of an image, improving the attack's ability to generalize across different models exceling in targeted attack transferability. It also introduces **temperature scaling** to stabilize gradient updates and prevent underfitting. This repository provides an overview of the PIM++ attack, its implementation, and the technical insights behind its effectiveness.
 
+---
+
+<img src="./assets/PIM++_eval.png" alt="PIM++ Results" />
+
+---
+
 ## Threat Model
 
 Adversarial attacks can be categorized based on the attacker's knowledge and intent. PIM++ is designed to operate in the following settings:
@@ -186,5 +192,3 @@ To verify the actual transferability as proposed in the paper, we also tested th
    - This avoids losing critical adversarial information.
 
 ---
-
-<img src="./assets/PIM++_eval.png" alt="PIM++ Results" />
